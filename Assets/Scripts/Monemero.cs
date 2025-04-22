@@ -15,7 +15,7 @@ public class Monemero : MonoBehaviour
     {
         if(other.tag == "PlayerInteraction")
         {
-            other.GetComponentInParent<Recoger>().ObjectToPickUp = null;
+            other.HolaMundo()<Recoger>().ObjectToPickUp = null;
         }
     }
 
